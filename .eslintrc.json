@@ -23,6 +23,7 @@
     "prettier"
   ],
   "rules": {
+    "class-methods-use-this": "off", // desabilita o meotodo this
     "prettier/prettier": "error",
     "import/extensions": [
       "error",
