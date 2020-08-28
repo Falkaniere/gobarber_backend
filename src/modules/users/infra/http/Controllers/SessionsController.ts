@@ -12,7 +12,7 @@ export default class SessionsController {
 
     const { user, token } = await authService.execute({ email, password });
 
-    // remover a senha do retorno para o backend
+    // remover a senha do retorno para o front
     delete user.password;
 
     return response.json({ user, token });
